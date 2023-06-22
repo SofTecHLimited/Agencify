@@ -17,10 +17,11 @@ public class LargestDifference {
 
         return maxDifference;
     }
-
+ 
     public static void main(String[] args) {
         List<Integer> numbers = List.of(1, 9, 3, 7);
         int largestDifference = findLargestDifference(numbers);
         System.out.println("The largest difference is: " + largestDifference);
     }
 }
+//This program calculates the lagest difference from a list of numbers and prints it
