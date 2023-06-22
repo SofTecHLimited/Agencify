@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class FibonacciSequence {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a positive integer: ");
@@ -11,7 +11,7 @@ public class FibonacciSequence {
         generateFibonacciSequence(n);
     }
 
-    private static int getValidInput(Scanner scanner) { // Validate user input for correct values
+    private static int getValidInput(Scanner scanner) {      // This method Validates user input for correct values
         int n;
         while (true) {
             try {
