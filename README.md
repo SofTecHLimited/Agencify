@@ -22,7 +22,7 @@ In this implementation, the `findLargestDifference` function takes a `List<Integ
 
 If the list has two or more elements, it initializes `minNumber` with the first element and `maxDifference` with 0. Then it iterates over the remaining numbers in the list, updating `maxDifference` if a larger difference is found and updating `minNumber` if a smaller number is found.
 
-## Assessment 3: SQL Query
+## Assessment 3: employee_query
 Provided in this problem is a database table called `employees` with columns `id`, `name`, `age` and `salary`. The task is to write a SQL query that selects all employees whose age is above 30 and salary is above $50,000.
 
 **Solution**: The solution includes writing a SQL query that utilizes the `SELECT` statement with appropriate conditions to retrieve the desired employees from the database table. 
