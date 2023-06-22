@@ -14,3 +14,5 @@ public class AverageCalculator {
         System.out.println("The average is: " + result);
     }
 }
+
+//This is the fixed code to correct the average output error 
